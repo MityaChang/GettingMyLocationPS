@@ -57,7 +57,7 @@ public class CheckRecord extends AppCompatActivity {
                         Toast.makeText(CheckRecord.this, "Failed to read!", Toast.LENGTH_LONG).show();
                         e.printStackTrace();
                     }
-                    
+
                     tvNumofRecords.setText("Number of Records: " + lines.size());
                     aa.notifyDataSetChanged();
                 }
